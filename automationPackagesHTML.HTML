@@ -1,11 +1,56 @@
 <html>
     <head>
-        <script src="automationPackagesJs.js"></script>
+        <script type="text/javascript" src="automationPackagesJs.js"></script>
         <!-- <script src="automationPackagesCss.css"></script> -->
         <link href="automationPackagesCss.css" rel="stylesheet" type="text/css">
     </head>
     <body>
-        <h1>Automation Packages</h1>
-        <p>Hi this </p>
+        <div class = "header-div">
+            <a href ="">
+            <img id = "roku-logo" src="https://sdkdocs.roku.com/download/attachments/524289/atl.site.logo?version=2&modificationDate=1440675577312&api=v2">    
+            </a>
+            <h1 class = "header">Automation Packages</h1>
+        </div>
+        <br>
+        <div class = "form">
+            <form action="/action_page.php">
+                <p>Select the Environment</p>
+                <label class="container">Dev
+                    <input type="checkbox" id = "checkBoxIp1" checked="checked" onclick="showTextBox()">
+                </label>
+                <label class="container">Test
+                    <input type="checkbox" id = "checkBoxIp2" onclick="showTextBox()">
+                </label>
+                <br>
+                <br>
+                <label class="container">Ip address for 1st environment
+                    <br>
+                    <br>
+                    <input type="Textbox">
+                </label>
+                <br>
+                <br>
+                <label id = "ipBox" class="container">Ip address for 2nd environment
+                    <br>
+                    <br>
+                    <input type="Textbox">
+                </label>
+                <br>
+                <label id = "">Select the branch
+                    <br>
+                    <br>
+                    <select name="branch" id = "branch-Selection">
+                        <option value="develop">develop</option>
+                        <option value="master">master</option>
+                    </select>
+                </label>
+                <br><br>
+                <button id = "flavour-Button">Select Flavours</button>
+                <br><br>
+                <button id = "StartButton">Start Packaging</button>
+                </form>
+            </form>         
+        </div>
+        <p></p>
     </body>
 </html>

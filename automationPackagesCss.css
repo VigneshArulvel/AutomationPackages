@@ -1,8 +1,47 @@
-head {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: blue;
+.header {
+    color: #ffffff;
+    padding-right: 581px;
+    float: right;
+    font-size: 27px;
+}
+.header-div {
+    background-color: #662D91;
+}
+#roku-logo{
+    max-height: 24px;
+    padding: 18px 17px;   
+}
+form {
+    padding-left: 17px;
+    font-size: 20px;
+    color: #662D91;
+}
+#ipBox{
+    display: none;
+}
+#flavour-Button{
+    border-radius: 25px;
+    height: 50px;
+    width: 235px;
+    color:white;
+    background-color: #662D91;
+}
+#startButton{
+    border-radius: 25px;
+    height: 50px;
+    width: 235px;
+    color:white;
+    background-color: #662D91;
+}
+#branch-Selection{
+    height: 35px;
+    width: 175px;
 }
 
-p {
-    color: blue;
+form{
+    border: #662D91;
+    border-style: solid;
+    width: 400px;
+    height: 550px;
+    text-align: center;
 }
